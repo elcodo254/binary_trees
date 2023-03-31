@@ -46,5 +46,6 @@ const binary_tree_t *get_leaf(const binary_tree_t *tree);
 int is_perfect_recursive(const binary_tree_t *tree,
 		size_t leaf_depth, size_t level);
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
+binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
 #endif /* _BINARY_TREES_H_ */
